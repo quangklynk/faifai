@@ -143,6 +143,10 @@ img {
   display: none;
 }
 
+.title-mobi {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .grid-menu-6 {
     grid-template-columns: 1fr 1fr;
@@ -166,15 +170,27 @@ img {
     border-right: unset;
   }
 
-  .ct-footer{
+  .ct-footer {
     padding: 20px 20px;
   }
 
-  .name-footer{
+  .name-footer {
     padding: 0px 70px;
   }
 
   .ct-footer .contact-footer {
     flex-wrap: wrap;
+  }
+
+  .title-mobi{
+    display: unset;
+  }
+
+  .title-menu{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .title-menu h3{
+    padding: 0px 5px;
   }
 }
