@@ -161,4 +161,20 @@ img {
   .mobi-app a {
     color: #000;
   }
+
+  .contact-footer .item-contact:not(.contact-footer .item-contact:last-child) {
+    border-right: unset;
+  }
+
+  .ct-footer{
+    padding: 20px 20px;
+  }
+
+  .name-footer{
+    padding: 0px 70px;
+  }
+
+  .ct-footer .contact-footer {
+    flex-wrap: wrap;
+  }
 }
