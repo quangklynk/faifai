@@ -58,6 +58,10 @@ img {
   color: rgba(32, 35, 37, 0.4);
 }
 
+.contact-footer .item-contact {
+  text-align: center;
+}
+
 .contact-footer .item-contact:not(.contact-footer .item-contact:last-child) {
   border-right: 1px solid rgba(32, 35, 37, 0.4);
   align-self: center;
@@ -65,6 +69,7 @@ img {
 
 .contact-footer .item-contact a {
   padding: 0px 15px;
+  display: block;
 }
 
 .grid-menu-6 {
@@ -102,7 +107,6 @@ img {
   text-overflow: ellipsis;
 }
 
-
 .parent {
   position: relative;
   overflow: hidden;
@@ -125,13 +129,36 @@ img {
   transition: all 0.7s;
 }
 
-
-.log{
+.log {
   color: #000;
   text-decoration: unset;
 }
 
-.log:hover{
+.log:hover {
   color: #000;
   text-decoration: unset;
+}
+
+.mobi-app {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-menu-6 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tab-log {
+    display: none;
+  }
+
+  .mobi-app {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .mobi-app a {
+    color: #000;
+  }
 }
