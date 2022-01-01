@@ -1,0 +1,219 @@
+
+/* cyrillic-ext */
+.containerx {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    margin: auto;
+    width: 95%;
+    border-bottom-right-radius: 4px;
+    display: block;
+    border-bottom-left-radius: 4px;
+    pointer-events: none;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7), #000);
+    color: #fff
+}
+
+.bottom-left small {
+    color: #e5e5e5;
+}
+
+.bottom-left span {
+    font-size: 15px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    vertical-align: middle;
+}
+
+body.modal-open> :not(.modal) {
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+
+nav.navbar.navbar-light.bg-light {
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-red_1078-436.jpg?size=626&ext=jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    border-bottom: 3px solid #e58900;
+}
+
+.alert {
+    color: #ffffff;
+    border: none;
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-red_1078-436.jpg?size=626&ext=jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    overflow-x: hidden;
+    counter-reset: my-sec-counter;
+    scroll-behavior: smooth
+}
+
+.text-center {
+    text-align: center !important;
+    font-size: 15px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.6rem 0.5rem;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-size: inherit;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: bold;
+}
+
+.btn {
+    background-image: url(https://img.freepik.com/free-vector/pop-art-background-with-dots-yellow-comic-background-cartoon-funny-retro-pattern-vector-illustration_230281-84.jpg?size=626&ext=jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: #000;
+    font-weight: 500;
+    border: none;
+}
+
+body {
+    background: #fff;
+}
+
+td small {
+    color: #ff2300;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav.navbar.navbar-light.bg-light {
+    background-color: #fff !important;
+    background-repeat: repeat;
+    background-size: cover;
+    border: none;
+    background-image: none;
+}
+
+.list-group-item {
+    border: none;
+}
+
+td small {
+    color: #0a6abd;
+    font-size: 12px;
+}
+
+.apple {
+    color: #fff;
+    background: #0072ff;
+    font-size: 13px;
+    border-radius: 100px;
+}
+
+input.form-control {
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 14px;
+}
+
+select {
+    border: none !important;
+    font-size: 14px !important;
+    border-top: 1px solid #d9d9d9 !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+    border-radius: 0 !important;
+}
+
+label.small.mb-2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.alert {
+    color: #464646;
+    border: none;
+    background-color: #f9f9f9 !important;
+    background-image: none;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+table.table.text-center {
+    font-weight: bold;
+    font-size: 13px;
+}
